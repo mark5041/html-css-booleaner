@@ -9,7 +9,7 @@ main, footer {
     background-color: white;
 }
 
-section {
+section,footer {
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -110,9 +110,12 @@ table tr:nth-child(odd)  {
     width: 270px;
     height: 208px;
     color: white;
-    font-size: 30px;
 }
 
+#card {
+    font-size: 30px;
+    line-height: 30px;
+}
 
 .monitor {
     background-image: url(../img/monitor.jpg);
