@@ -26,6 +26,7 @@ main {
 
 section {
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 h1, .credit {
@@ -46,6 +47,30 @@ h1, .credit {
     color: #8b8b8b;
 }
 
+.row {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card{
+    width: 270px;
+    height: 208px;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+.graph {
+    margin-top: 5px;
+    background-image: url(../img/graph.jpg);
+    
+}
+
+span {
+    background-color: yellow;
+}
+
 .author {
     text-decoration: none;
     color: #2bafe7;
@@ -57,4 +82,30 @@ h1, .credit {
 
 .photo-info{
     margin-top: 4px;
+}
+
+.container {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0px;
+    text-align: left;
+
+}  
+
+th {
+    background-color: #1aaae6;
+    color: white;
+    padding: 0px;
+}
+
+table tr:nth-child(odd)  { 
+    background: #b2e6f2; 
+}
+
+#third-column {
+    width: 50%;
 }
