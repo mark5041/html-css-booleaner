@@ -1,0 +1,56 @@
+body {
+    background-color: #010202;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header{
+    margin-top: -8px;
+}
+
+.navigation {
+    background-color: dodgerblue;
+    background-image: url(../img/pattern.png);
+    height: 180px;
+}
+
+#logo {
+    height: 70px;
+    margin-top: 110px;
+    margin-left: 7px;
+}
+
+main {
+    background-color: white;
+}
+
+h1, .credit {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 1.33em;
+    font-size: 2.57em;
+    text-align: left;
+    margin-left: 5px;
+    width: 85%;
+}
+
+p{
+    color: #8b8b8b;
+}
+
+.credit {
+    margin-top: -4px;
+    font-size: 20.5px;
+}
+
+.author {
+    text-decoration: none;
+    color: #2bafe7;
+}
+
+.data{
+    font-size: 17px;
+}
