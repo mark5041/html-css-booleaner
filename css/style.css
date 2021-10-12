@@ -9,7 +9,13 @@ main, footer {
     background-color: white;
 }
 
-section,footer {
+section, footer, p, h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+}
+
+section, .card {
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -36,8 +42,6 @@ header{
 
 /* text */
 h1, .credit {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
@@ -51,6 +55,7 @@ h1, .credit {
     margin-top: -4px;
     font-size: 20.5px;
     color: #8b8b8b;
+    margin-left: 5px;
 }
 
 .author {
@@ -97,9 +102,12 @@ table tr:nth-child(odd)  {
 
 
 /* photo */
+footer {
+    padding-top: 15px;
+}
+
 .row {
     margin-top: 10px;
-    margin-bottom: 15px;
 }
 
 .card{
@@ -109,8 +117,14 @@ table tr:nth-child(odd)  {
 }
 
 #card {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     font-size: 30px;
-    line-height: 30px;
+    margin-left: 5px;
+
 }
 
 .monitor {
@@ -122,3 +136,4 @@ table tr:nth-child(odd)  {
     background-image: url(../img/graph.jpg); 
 }
 /* photo */
+
