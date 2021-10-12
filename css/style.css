@@ -9,15 +9,19 @@ main, footer {
     background-color: white;
 }
 
-section, footer, p, h1 {
+section, footer, p, h1, ul {
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-weight: bold;
 }
 
 section, .card {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+ul {
+    padding-inline-start: 20px;  
 }
 /* global */
 
@@ -53,9 +57,9 @@ h1, .credit {
 
 .credit {
     margin-top: -4px;
-    font-size: 20.5px;
+    font-size: 1.28125em;
     color: #8b8b8b;
-    margin-left: 5px;
+    margin-left: 2%;
 }
 
 .author {
@@ -64,7 +68,7 @@ h1, .credit {
 }
 
 .data{
-    font-size: 17px;
+    font-size: 0.8292682926829268em;
 }
 /* text */
 
@@ -74,7 +78,7 @@ h1, .credit {
 
 .container {
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 1.1875em;
 }
 
 /* tabella */
@@ -103,7 +107,7 @@ table tr:nth-child(odd)  {
 
 /* photo */
 footer {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .row {
@@ -122,8 +126,8 @@ footer {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    font-size: 30px;
-    margin-left: 5px;
+    font-size: 1.875em;
+    margin-left: 2%;
 
 }
 
